@@ -139,17 +139,14 @@ footer.rodape-inicial{
     width: 90%;
     margin: auto;
     padding: 40px 0;
+    background-color: #377be0;
 }
 
-
-
 .estados h2{
-
     text-align:center;
     font-size:40px;
-    color:#2E7D32;
+    color:#fff;
     margin-bottom:40px;
-
 }
 
 .container-cards{
@@ -157,11 +154,9 @@ footer.rodape-inicial{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-
 }
 
 .card-estado{
-
     background: white;
     border-radius: 15px;
     overflow: hidden;
@@ -175,71 +170,49 @@ footer.rodape-inicial{
 }
 
 .card-estado:hover{
-
     transform:translateY(-8px);
-
 }
 
 .card-estado img{
-
     width:100%;
-
     height:150px;
-
     object-fit:cover;
-
 }
 
 .conteudo{
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
     padding: 20px
-
 }
 
 .conteudo h3{
-
     color:#2E7D32;
-
     margin-bottom:15px;
-
 }
 
 .conteudo p{
-
     margin:8px 0;
-
     color:#555;
-
 }
 
 .card-estado button{
-
     margin-top:20px;
-
     width:100%;
-
     padding:12px;
-
     border:none;
-
     border-radius:8px;
-
     background:#2E7D32;
-
     color:white;
-
     cursor:pointer;
-
     transition:.3s;
-
 }
 
 .card-estado button:hover{
-
     background:#1B5E20;
+}
 
+.estados h3 {
+    text-align: center;
 }
